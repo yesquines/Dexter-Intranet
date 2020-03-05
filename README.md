@@ -1,6 +1,11 @@
 DEXTER - INTRANET
 =================
 
+Docker Hub
+----------
+* [`Docker Hub - Dexter Intranet`](https://hub.docker.com/r/yagoesquines/dexter-intranet)
+
+
 Objetivo
 --------
 
