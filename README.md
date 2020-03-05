@@ -16,6 +16,16 @@ Docker Hub
 ----------
 * [`Docker Hub - Dexter Intranet`](https://hub.docker.com/r/yagoesquines/dexter-intranet)
 
+### Como Usar:
+* Start Container
+  ```bash
+  docker container run -d --name dexter-intranet -p 80:80 yagoesquines/dexter-intranet
+  ```
+* Container Shell
+  ```bash
+  docker exec -ti dexter-intranet sh
+  ```
+
 Créditos:
 ---------
 Aplicação desenvolvida pela [4Linux](https://4linux.com.br)
