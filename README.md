@@ -19,7 +19,7 @@ Especificações do Container
 	- **Imagem Base**: Alpine
 	- **Diretório de Trabalho**: /var/www/localhost/htdocs/
 	- **Pacotes Adicionais**: apache2, php7-apache2, php7, php-session, lmdb-dev, curl-dev, libmaxminddb-dev, yajl, libstdc++
-	- **Intergrações**: [ModSecurity](https://github.com/SpiderLabs/ModSecurity) e [OWASP ModSecurity Core Rule Set](https://github.com/coreruleset/coreruleset/) (Implementado com Multi-Stage Builds)
+	- **Integrações**: [ModSecurity](https://github.com/SpiderLabs/ModSecurity) e [OWASP ModSecurity Core Rule Set](https://github.com/coreruleset/coreruleset/) (Implementado com Multi-Stage Builds)
 	- **Entrypoint**: httpd -D FOREGROUND
 
 > Para implementar novas regras do ModSecurity é necessário editar o arquivo `/etc/modsecurity.d/modsecurity.conf` dentro do container
